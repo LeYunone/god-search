@@ -1,4 +1,4 @@
-package com.leyunone.godsearch.util;
+package com.leyunone.godsearch.core.util;
 
 import java.util.List;
 import java.util.Map;

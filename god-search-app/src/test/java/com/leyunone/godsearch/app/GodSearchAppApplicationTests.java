@@ -1,10 +1,10 @@
-package com.leyunone.godsearch.util;
+package com.leyunone.godsearch.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GodSearchCommonApplicationTests {
+class GodSearchAppApplicationTests {
 
     @Test
     void contextLoads() {

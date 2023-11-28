@@ -1,4 +1,4 @@
-package com.leyunone.godsearch.system;
+package com.leyunone.godsearch.core.util;
 
 /**
  * :)
@@ -7,5 +7,5 @@ package com.leyunone.godsearch.system;
  * @email 365627310@qq.com
  * @date 2023/11/27
  */
-public class SearchConfig {
+public class SearchUtil {
 }

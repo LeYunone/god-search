@@ -1,8 +1,8 @@
-package com.leyunone.godsearch.util;
+package com.leyunone.godsearch.core.util;
 
 
-import com.leyunone.godsearch.bean.ResponseCode;
-import com.leyunone.godsearch.config.GodSearchException;
+import com.leyunone.godsearch.common.bean.ResponseCode;
+import com.leyunone.godsearch.common.config.GodSearchException;
 
 /**
  * @author leyunone

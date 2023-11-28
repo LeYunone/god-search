@@ -1,4 +1,4 @@
-package com.leyunone.godsearch.bean;
+package com.leyunone.godsearch.common.bean;
 
 import lombok.*;
 

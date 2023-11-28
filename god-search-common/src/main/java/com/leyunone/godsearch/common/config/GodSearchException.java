@@ -1,4 +1,4 @@
-package com.leyunone.godsearch.config;
+package com.leyunone.godsearch.common.config;
 
 /**
  * :)

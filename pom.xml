@@ -24,6 +24,7 @@
     <modules>
         <module>god-search-common</module>
         <module>god-search-core</module>
+        <module>god-search-app</module>
     </modules>
 
     <dependencyManagement>
@@ -31,6 +32,11 @@
             <dependency>
                 <groupId>com.leyunone</groupId>
                 <artifactId>god-search-common</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.leyunone</groupId>
+                <artifactId>god-search-core</artifactId>
                 <version>${version}</version>
             </dependency>
             <!-- spring boot 依赖 -->

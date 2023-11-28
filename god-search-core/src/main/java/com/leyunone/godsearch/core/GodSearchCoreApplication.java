@@ -1,4 +1,4 @@
-package com.leyunone.godsearch;
+package com.leyunone.godsearch.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
