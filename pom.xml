@@ -25,6 +25,7 @@
         <module>god-search-common</module>
         <module>god-search-core</module>
         <module>god-search-app</module>
+        <module>god-search-social</module>
     </modules>
 
     <dependencyManagement>

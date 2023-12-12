@@ -1,13 +1,13 @@
-package com.leyunone.godsearch.core;
+package com.leyunone.godsearchsample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GodSearchCoreApplication {
+public class GodSearchSampleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GodSearchCoreApplication.class, args);
+        SpringApplication.run(GodSearchSampleApplication.class, args);
     }
 
 }
