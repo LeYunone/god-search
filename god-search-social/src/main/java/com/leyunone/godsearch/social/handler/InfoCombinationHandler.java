@@ -1,6 +1,6 @@
 package com.leyunone.godsearch.social.handler;
 
-import com.leyunone.godsearch.core.bean.data.SocialUserInfo;
+import com.leyunone.godsearch.core.bean.info.SocialUserInfo;
 import com.leyunone.godsearch.core.handler.ResultSetHandler;
 
 /**
