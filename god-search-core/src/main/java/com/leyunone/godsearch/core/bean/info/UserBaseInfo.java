@@ -18,6 +18,11 @@ public class UserBaseInfo {
     private String email;
 
     /**
+     * 唯一id
+     */
+    private String sessionId;
+
+    /**
      * TODO 手机号 名字
      */
 }

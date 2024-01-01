@@ -2,6 +2,7 @@ package com.leyunone.godsearch.core.manage.token;
 
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.http.server.HttpServerRequest;
+import com.leyunone.godsearch.core.bean.data.UserData;
 import com.leyunone.godsearch.core.manage.base.TokenManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -19,12 +20,13 @@ public class GodSearchManager implements TokenManager {
     @Autowired
     private HttpServerRequest request;
 
-    public void getUser() {
+    public UserData getUser() {
         if (ObjectUtil.isNull(request)) {
             //本地缓存的伪用户信息
         } else {
             //云端信息
         }
+        return null;
     }
 
 }
