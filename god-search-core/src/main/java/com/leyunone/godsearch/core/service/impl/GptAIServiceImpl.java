@@ -5,6 +5,7 @@ import com.leyunone.godsearch.core.chatgpt.ChatDialogueConstants;
 import com.leyunone.godsearch.core.manage.token.ChatGPTTokenManager;
 import com.leyunone.godsearch.core.manage.token.GodSearchManager;
 import com.leyunone.godsearch.core.service.GptAIService;
+import com.leyunone.godsearch.core.util.TokenUtils;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatCompletionResult;
 import com.theokanning.openai.completion.chat.ChatMessage;
@@ -39,7 +40,7 @@ public class GptAIServiceImpl implements GptAIService {
      * @param newChat 新的聊天
      */
     public void chat(boolean startStatus,String newChat,Integer index) {
-        UserData user = godSearchManager.getUser();
+        UserData user = TokenUtils.getUser();
         Map<String, List<ChatMessage>> chatCache = ChatDialogueConstants.chatList;
         String key = user.getUserBaseInfo().getSessionId()+"#"+index;
         List<ChatMessage> chatList = null;
